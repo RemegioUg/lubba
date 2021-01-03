@@ -1,28 +1,68 @@
-.masthead {
-  height: 100vh;
-  min-height: 500px;
-  background-image: url("https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-  background-size: contain;
-  background-color: rgb(251, 251, 253);
-  background-position: center;
-  background-repeat: no-repeat;
+.page{
+    width: 100%;
+}
+.row .col-md-6 .row{
+   
+    margin: 30px auto;
+    background-color: rgb(255, 254, 254);
+   
+    width: 100%;
+}
+  h4{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-style:normal;
+    font-stretch: ultra-expanded;
+
+}
+.footer hr{
+    background-color: rgb(248, 247, 253);
+    height: 2px;
+   text-align: center;
+   width: 100% ;
+}
+.page{
+    margin: 0 auto;
+}
+.ourcampus{
+    width: 100%;
+    background-color: gray;
+    height: 2px;
+    margin: 10px 0;
+   
+}
+.lira{
+    width: 100%;
+     margin: 10px auto;
+}
+.logo{
+   
+   width: 60%;
+min-height: 100px;
+height: 300px;
+    margin: 10px auto;
+}
+h6{
+    width: 60%;
+    margin: 10px auto;
+    
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 25px;
+    font-stretch: 40px;
+ 
+}
+.navbar{
+    font-size: 50px;
+   
+}
+.img1{
+    margin: 15px auto;
+    width: 60%;
+}
+support{
+    width: 400px;
 }
 
-.nav-link {
-  color: #5a7502;
-  font-weight: bold;
-}
-
-.query-page {
-  background-image: url("https://images.unsplash.com/photo-1455864682780-4547e403269c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80");
-  height: 500px;
-}
-
-.notification-bar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 2em 0 2em;
-  padding: 0;
-}

@@ -3,8 +3,9 @@ import './style/footer.css'
 export class Footer extends Component {
     render() {
         return (
-            <div>
-               <div class="row">
+            <div className="container-fluid">
+               <div class="row footer">
+                   
                    <div class="col-md-3">
                        <h5>Activities</h5>
                       <hr />
@@ -17,6 +18,10 @@ export class Footer extends Component {
                    <div class="col-md-3">
                        <h5>About Us</h5>
                         <hr />
+                        Lubba is banyankole Bakiiga Association
+                        based at Lira university.
+                        It unites all the Banyankole and Bakiiga to participate in the University
+                        activities as a cultural group
                    </div>
                    <div class="col-md-3">
                        <h5>Contact Us</h5>
@@ -27,11 +32,18 @@ export class Footer extends Component {
                        <div class="row">
                            Email: info@lubba.com
                        </div>
+                       <div class="row">
+                           Location: Lira University
+                       </div>
+                       <div class="row">
+                           Barapwo Parish
+                       </div>
                         
                    </div>
                    <div class="col-md-3">
                        <h5>Connect with Us</h5>
                         <hr />
+                       
                    </div>
                </div> 
             </div>
