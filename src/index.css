@@ -65,4 +65,11 @@ h6{
 support{
     width: 400px;
 }
+.bg{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXIgd0RAR0G_i2QoYkaB3-QQJzmpsOamu2yw&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 

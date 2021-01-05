@@ -3,7 +3,7 @@ import './style/footer.css'
 export class Footer extends Component {
     render() {
         return (
-            <div className="container-fluid">
+            <div className=" container-fluid">
                <div class="row footer">
                    
                    <div class="col-md-3">

@@ -184,7 +184,13 @@ However, the Kingdom is not yet officially restored.
                          concerns by starting a new case and we 
                          will give you the help you need.
                          </p>
-
+                         <div class="col-md-6">
+                           <i class="fas fa-phone"></i>
+                           <span>Call Us on </span>
+                         </div>
+                         <div class="col-md-6">
+                           
+                         </div>
                     </div>
                    </div>
 

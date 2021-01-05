@@ -1,31 +1,30 @@
 import React from 'react'
-import {BrowserRouter as Router, Switch,Route} from 'react-router-dom'
-import Home from './components/Home'
-import Activities from './components/pages/Activities'
-import Updates from './components/pages/Updates'
-import About from './components/pages/About'
-import Contact from './components/pages/Contact'
 
+import Home from './components/Home'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.css'
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import About from './components/pages/About'
+import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
-  <>
-  <Home/>
-    <Router>
-      
-      <Switch>
-        <Route exact path="/activitis" component={Activities} />
-        <Route exact path="/updates" component={Updates} />
-        <Route exact path="/about us" component={About} />
-        <Route exact path="/contact us" component={Contact} />
+    <div>
+     
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about-us" component={About} />
+       
+        </Switch>
         
-      </Switch>
-    </Router>
-    </>
+        <Footer />
+      </Router>
+      
+    </div>
   )
 }
 

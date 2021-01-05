@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+
 function NavBar() {
   const navbar={
     fontSize:'16px'
@@ -43,24 +44,25 @@ function NavBar() {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link to="/updates" class="nav-link">
+                <a href="updates" class="nav-link">
                   <span class="p-2" style={navbar}>Updates</span>
-                </Link>
+                </a>
               </li>
               
               <li class="nav-item">
-                <Link to="/about us" class="nav-link">
+                <Link to="/about-us" class="nav-link">
                   <i class="far fa-comment"></i>
                   <span class="p-2" style={navbar}>About Us</span>
                 </Link>
               </li>
 
               <li class="nav-item">
-                <Link to="/contact us" class="nav-link">
+                <a href="/contact us" class="nav-link">
                   <i class="far fa-comment"></i>
                   <span class="p-2" style={navbar}>Contact Us</span>
-                </Link>
+                </a>
               </li>
+              
               
             </ul>
           </div>

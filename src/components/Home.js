@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-import Footer from './NavBar'
-import NavBar from './Footer'
+
 import Body from './Body'
 
 
@@ -10,9 +9,9 @@ import Body from './Body'
     return (
         <>
         <div className="page">
-          <Footer />
+        
        <Body />
-        <NavBar />
+        
         </div>
         
        
