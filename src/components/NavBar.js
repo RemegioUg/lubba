@@ -9,7 +9,7 @@ function NavBar() {
     return (
       <div>
         <nav
-        class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark shadow"
+        class=" navbar navbar-expand-lg navbar-dark bg-dark shadow"
         
       >
 
@@ -30,7 +30,7 @@ function NavBar() {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto" >
+            <ul class="navbar-nav ml-auto " >
               <li class="nav-item active" >
                 <Link to="/" class="nav-link">
                   <i class="fas fa-home"></i>
@@ -50,14 +50,14 @@ function NavBar() {
               </li>
               
               <li class="nav-item">
-                <Link to="/about-us" class="nav-link">
+                <a href="/about-us" class="nav-link">
                   <i class="far fa-comment"></i>
                   <span class="p-2" style={navbar}>About Us</span>
-                </Link>
+                </a>
               </li>
 
               <li class="nav-item">
-                <a href="/contact us" class="nav-link">
+                <a href="/contact" class="nav-link">
                   <i class="far fa-comment"></i>
                   <span class="p-2" style={navbar}>Contact Us</span>
                 </a>

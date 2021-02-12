@@ -24,6 +24,7 @@
 }
 .page{
     margin: 0 auto;
+    background-color: aliceblue;
 }
 .ourcampus{
     width: 100%;
@@ -52,7 +53,7 @@ h6{
     font-weight: bold;
     font-size: 25px;
     font-stretch: 40px;
- 
+   
 }
 .navbar{
     font-size: 50px;
@@ -62,7 +63,7 @@ h6{
     margin: 15px auto;
     width: 60%;
 }
-support{
+.support{
     width: 400px;
 }
 .bg{
@@ -70,6 +71,29 @@ support{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    
 }
-
+.ab{
+    margin: 30px auto;
+    width: 60%;
+   
+}
+.lub{
+    background-color:#6986B0;
+    height: 100px; 
+    margin: 15px;
+}
+.h{
+    color:#393C3E;
+}.pp{
+    color: rgb(87, 84, 84);
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 15px;
+}
+.pesa{
+    background-color: #E3E8E8;
+    border-radius:15px ;
+    height: 400px;
+    width: 80%;
+}

@@ -1,32 +1,15 @@
 import React, { Component } from 'react'
-
+import ReactPlayer from "react-player/youtube"
 import logo from './style/lira.jpg'
 import logo1 from './image/culture.jpg'
 import logo2 from './image/lubba-me.jpg'
 import logo3 from './image/lubbami.jpg'
 import support from './image/images.png'
-const h4={
-    textAlign:'center',
-    color:'black',
-    fontStretch:'100px',
-    fontWeight: 'bolder',
-    fontSize:'30px'
-   
-}
-const hr ={
-    
-    height:'2px',
-    backgroundColor:'blue' ,
-    margin:'0 auto'
-    
-}
-const img={
- maxHeight:'100vh'
-}
+
 export class Body extends Component {
     render() {
         return (
-            <div className="body container container-fluid">
+          <React.Fragment>            <div className="body container container-fluid">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <ol class="carousel-indicators">
     <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
@@ -137,43 +120,14 @@ export class Body extends Component {
                        
                        
                     </div>
-                    <div style={anthem} class="row">
-                      <h1 style={h1}>Our Anthems</h1>
-                      <p style={p}>
-                      since most lubba members come from Ankole and Kigezi kingdoms,
-                      it therefore uses two anthems the Ankole Anthem and Kigezi Anthem<br/></p>
-                      <div class="col-md-6">
-                        <h5>Ankole Anthem</h5>
-                      <h>Ensi Kole</h>
-                      <p style={p}>Ensi Nkore is the official anthem of the Nkore Kingdom. Translated as "Our Land Nkore", the song is being sung whenever the Kingdom functions are about to begin.
 
-However, the Kingdom is not yet officially restored.
- Various Kingdom activists and royalties sing this
-  song before the official ceremonies. Notable among them is the Nkore Activist
- Group which has an established office on Kamukuzi 
- hill, at Mugaba House Mbarara,
-  Uganda. For lyrics <a href="https://en.wikipedia.org/wiki/Ensi_Nkore">Click here</a></p>
-                    
-                      </div>
-                      <div class="col-md-6">
-                        <h5>Kigezi Anthem</h5>
-                      <h>Ensi Kole</h>
-                      <p style={p}>Ensi Nkore is the official anthem of the Nkore Kingdom. Translated as "Our Land Nkore", the song is being sung whenever the Kingdom functions are about to begin.
+                   {/* will be deleted code below */}
+                 
+                   
+                    <hr style={{marginBottom:'60px',marginTop:'60px'}} />
 
-However, the Kingdom is not yet officially restored.
- Various Kingdom activists and royalties sing this
-  song before the official ceremonies. Notable among them is the Nkore Activist
- Group which has an established office on Kamukuzi 
- hill, at Mugaba House Mbarara,
-  Uganda. For lyrics <a href="https://en.wikipedia.org/wiki/Ensi_Nkore">Click here</a></p>
-                    
-                      </div>
-                      
-                    </div>
-                    <hr/>
-
-                   <div class="row">
-                    <div class="col-md-6"  style={supports}>
+                   <div class="row" >
+                    <div class="col-md-6" style={supports} >
                       <img src={support}  alt="support" className='img1'/>
                   
                     </div> 
@@ -193,20 +147,80 @@ However, the Kingdom is not yet officially restored.
                          </div>
                     </div>
                    </div>
+                   <div class="row">
+                     <p className='btn btn-success btn-md' style={{borderRadius:'50px',width:'60%', margin: '20px auto'}}><a href='/about-us'style={{textDecoration:'none',color:'white'}}><h6>more about lubba</h6></a></p>
+                   </div>
 
                 </div>
-            
+                <div class="container-fluid">
+                <div class="row"> 
+                    <h6 style={{textAlign:'center',
+                  marginTop:'40px',fontWeight:'bolder'
+                  }}>Our Anthems</h6>
+                    <hr style={{marginBottom:'60px',marginTop:'20px'}} />
+                   
+                    
+                    
+                    <div class="col-md-3" style={{marginTop:'30px',marginBottom:'30px'}}>
+                        <div style={anthem}>
+                          <h3 style={h1}>Ensi Nkore for Ankore Kingdom</h3>
+                          <p style={{color:'grey',fontWeight:'bold',marginTop:'10px',marginBottom:'10px'}}>Ensi Nkore is the official 
+                         of the Nkore Kingdom. Translated as
+                          "Our Land Nkore", the song is being sung 
+                          whenever the Kingdom functions are about to begin.<br />
+                        
+                          <a style={{textDecoration:'none', fontSize:'20px',fontWeight:'bolder'
+
+                        }} href="https://en.wikipedia.org/wiki/Ensi_Nkore"
+                         className='text-primary unstyled'>Read more...</a>
+                       
+                             </p>             
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                      <div style={video}>
+                      <ReactPlayer 
+                      width='50%'
+                      height='100px'
+                      controls='play'
+                 
+        url="https://www.youtube.com/watch?v=ug50zmP9I7"
+                     />
+
+                      </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div style={fixed}>
+                            <p style={{textAlign:'center'
+                          ,color:'white',border:'solid white 2px',
+                          backgroundColor:'#870830',margin:'0 auto',marginBottom:'30px',
+                          width:'40%'
+                          
+                          }}>
+                              Free Banking Charges</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    </div>
+                    
+
+                     
+                
+            </React.Fragment>
+
         )
     }
 }
 const anthem ={
-  width:'100%',
+  width:'80%',
   margin:'15px auto',
  
 }
 const h1 ={
-  textAlign:'center',
-  padding:'15px'
+  
+  padding:'0 15px',
+  fontWeight:'bold'
 }
 const p ={
     color:'grey',
@@ -232,7 +246,38 @@ const lira={
     fontFamily:'Arial, Helvetica, sans-serif'
 }
 const supports ={
-  width:'80%',
-  margin:'15px auto'
+  width:'60%',
+  margin:'15px auto',
+  borderRight:'4px solid grey'
 }
+const h4={
+  textAlign:'center',
+  color:'black',
+  fontStretch:'100px',
+  fontWeight: 'bolder',
+  fontSize:'30px'
+ 
+}
+const hr ={
+  
+  height:'2px',
+  backgroundColor:'blue' ,
+  margin:'0 auto'
+  
+}
+const img={
+maxHeight:'100vh'
+}
+const video ={
+  width:'70%',
+  margin:'0px auto'
+
+}
+const fixed ={
+  background:'#880932',
+  height:'350px',
+  width:'100%'
+}
+  
+
 export default Body
