@@ -155,7 +155,7 @@ export class Body extends Component {
                 <div class="container-fluid">
                 <div class="row"> 
                     <h6 style={{textAlign:'center',
-                  marginTop:'40px',fontWeight:'bolder'
+                  margin:'40px',fontWeight:'bolder'
                   }}>Our Anthems</h6>
                     <hr style={{marginBottom:'60px',marginTop:'20px'}} />
                    

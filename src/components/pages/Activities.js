@@ -6,8 +6,8 @@ export class Activities extends Component {
       this.state={
            isVerified:true
       }
-    this. onSubmit=this.onSubmit.bind(this)
-     this. verifyCallback=this.verifyCallback.bind(this)
+    this.onSubmit.bind(this)
+     this.verifyCallback=this.verifyCallback.bind(this)
      this.callBack =this.callBack.bind(this)
     }
   

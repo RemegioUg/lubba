@@ -51,14 +51,13 @@ function NavBar() {
               
               <li class="nav-item">
                 <a href="/about-us" class="nav-link">
-                  <i class="far fa-comment"></i>
                   <span class="p-2" style={navbar}>About Us</span>
                 </a>
               </li>
 
               <li class="nav-item">
                 <a href="/contact" class="nav-link">
-                  <i class="far fa-comment"></i>
+                
                   <span class="p-2" style={navbar}>Contact Us</span>
                 </a>
               </li>
