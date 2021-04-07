@@ -61,7 +61,8 @@ export class Body extends Component {
                                   who speak almost the same language
                                  </p>
                                 <p style={p}>
-                                Any student who is Omunyankole and Omukiiga comes to Lira University by default are entitled to this
+                                Any student who is Omunyankole and Omukiiga 
+                                comes to Lira University by default are entitled to this
                                 associationtes however is supposed to pay
                                 subscription fee that is mandeted by Lubba costitution  
                                  <a href="#">Lubba constitution</a> 
@@ -112,102 +113,16 @@ export class Body extends Component {
                                      Teaching Hospital in Uganda. The university has
                                      a fully-constituted Council, Senate, Appointments 
                                      Board and other committees to run its affairs.
-                                        Lira University is located in Ayere village,
-                                         Barapwo parish, Lira sub-county, 
-                                        Erute County in Lira district. It covers a total
-                                         area of 621 acres (251.3 hectares).
-                                         for more go.<a href="http://www.lirauni.ac.ug">Lira University website</a> </p>
+                                     Lira University is located in Ayere village,
+                                     Barapwo parish, Lira sub-county, 
+                                    Erute County in Lira district. It covers a total
+                                    area of 621 acres (251.3 hectares).
+                                    for more go.<a href="http://www.lirauni.ac.ug">Lira University website</a> </p>
                        
                        
                     </div>
-
-                   {/* will be deleted code below */}
-                 
-                   
-                    <hr style={{marginBottom:'60px',marginTop:'60px'}} />
-
-                   <div class="row" >
-                    <div class="col-md-6" style={supports} >
-                      <img src={support}  alt="support" className='img1'/>
-                  
-                    </div> 
-                    
-                    <div class="col-md-6" >
-                      <h4>SUPPORT US TODAY</h4>
-                      <p>Just send us your questions or
-                         concerns by starting a new case and we 
-                         will give you the help you need.
-                         </p>
-                         <div class="col-md-6">
-                           <i class="fas fa-phone"></i>
-                           <span>Call Us on </span>
-                         </div>
-                         <div class="col-md-6">
-                           
-                         </div>
-                    </div>
-                   </div>
-                   <div class="row">
-                     <p className='btn btn-success btn-md' style={{borderRadius:'50px',width:'60%', margin: '20px auto'}}><a href='/about-us'style={{textDecoration:'none',color:'white'}}><h6>more about lubba</h6></a></p>
-                   </div>
-
-                </div>
-                <div class="container-fluid">
-                <div class="row"> 
-                    <h6 style={{textAlign:'center',
-                  margin:'40px',fontWeight:'bolder'
-                  }}>Our Anthems</h6>
-                    <hr style={{marginBottom:'60px',marginTop:'20px'}} />
-                   
-                    
-                    
-                    <div class="col-md-3" style={{marginTop:'30px',marginBottom:'30px'}}>
-                        <div style={anthem}>
-                          <h3 style={h1}>Ensi Nkore for Ankore Kingdom</h3>
-                          <p style={{color:'grey',fontWeight:'bold',marginTop:'10px',marginBottom:'10px'}}>Ensi Nkore is the official 
-                         of the Nkore Kingdom. Translated as
-                          "Our Land Nkore", the song is being sung 
-                          whenever the Kingdom functions are about to begin.<br />
-                        
-                          <a style={{textDecoration:'none', fontSize:'20px',fontWeight:'bolder'
-
-                        }} href="https://en.wikipedia.org/wiki/Ensi_Nkore"
-                         className='text-primary unstyled'>Read more...</a>
-                       
-                             </p>             
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                      <div style={video}>
-                      <ReactPlayer 
-                      width='50%'
-                      height='100px'
-                      controls='play'
-                 
-        url="https://www.youtube.com/watch?v=ug50zmP9I7"
-                     />
-
-                      </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div style={fixed}>
-                            <p style={{textAlign:'center'
-                          ,color:'white',border:'solid white 2px',
-                          backgroundColor:'#870830',margin:'0 auto',marginBottom:'30px',
-                          width:'40%'
-                          
-                          }}>
-                              Free Banking Charges</p>
-                        </div>
-                      </div>
-                      
-                    </div>
-                    </div>
-                    
-
-                     
-                
-            </React.Fragment>
+           </div>
+   </React.Fragment>
 
         )
     }
